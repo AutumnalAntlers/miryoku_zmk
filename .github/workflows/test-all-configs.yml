@@ -22,6 +22,7 @@ jobs:
         "qwerty",
         "qwertz",
         "workman"
+        "soul"
       ]'
       nav: '[
         "default",

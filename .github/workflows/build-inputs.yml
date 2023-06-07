@@ -28,6 +28,7 @@ on:
         - "QWERTY"
         - "QWERTZ"
         - "Workman"
+        - "Soul"
       nav:
         description: 'nav'
         required: false
