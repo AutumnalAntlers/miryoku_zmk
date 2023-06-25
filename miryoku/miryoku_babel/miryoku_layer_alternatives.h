@@ -68,7 +68,7 @@ U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_MAGIC_STURDY_FLIP \
 &kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,             &kp Q,           \
-U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, R),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
+U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
 U_LT(U_BUTTON, X), U_MT(RALT, K),     &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SEMI),\
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
@@ -134,7 +134,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_MAGIC_STURDY \
 &kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,             &kp Q,           \
-U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, R),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
+U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
 U_LT(U_BUTTON, X), U_MT(RALT, K),     &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SEMI),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
