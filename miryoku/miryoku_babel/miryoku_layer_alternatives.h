@@ -67,10 +67,10 @@ U_LT(U_BUTTON, Y), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_MAGIC_STURDY_FLIP \
-&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,             &kp Q,           \
-U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
-U_LT(U_BUTTON, X), U_MT(RALT, K),     &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SEMI),\
-U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
+&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,               &kp Q,           \
+U_LT(U_SYM, S),    U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(RALT, A),       U_LT(U_MOUSE, I),  \
+U_MT(LGUI, X),     U_LT(U_BUTTON, K), &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_LT(U_BUTTON, DOT), U_MT(LGUI, SEMI),\
+U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,                U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY \
 &kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
@@ -133,10 +133,10 @@ U_LT(U_BUTTON, Y), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_MAGIC_STURDY \
-&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,             &kp Q,           \
-U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
-U_LT(U_BUTTON, X), U_MT(RALT, K),     &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SEMI),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp B,             &key_repeat,       &kp U,             &kp O,               &kp Q,           \
+U_LT(U_MOUSE, S),  U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp F,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(RALT, A),       U_LT(U_SYM, I),  \
+U_MT(LGUI, X),     U_LT(U_BUTTON, K), &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         U_LT(U_BUTTON, DOT), U_MT(LGUI, SEMI),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,                U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY_FLIP \
@@ -204,6 +204,7 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 &kp S,             &kp T,             &kp R,             &kp D,             &kp Y,             &kp F,             &kp N,             &kp E,             &kp A              &kp I, \
 &kp X,             &kp K,             &kp J,             &kp G,             &kp W,             &kp Z,             &kp H,             &kp COMMA,         &kp DOT,           &kp SEMI, \
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
+
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY \
 &kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
