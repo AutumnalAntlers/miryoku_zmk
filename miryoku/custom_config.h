@@ -9,7 +9,6 @@
         compatible = "zmk,behavior-macro";
         label = "ZM_dbl_l";
         #binding-cells = <0>;
-        layers = <0>;
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = <&kp L &kp L>;
