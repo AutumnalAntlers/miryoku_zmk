@@ -1,5 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 / {
   macros {
       dbl_l: dbl_l {
