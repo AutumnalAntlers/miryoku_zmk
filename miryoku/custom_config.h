@@ -3,7 +3,7 @@
 
 #include <behaviors.dtsi>
 
-\ {
+/ {
   macros {
       dbl_l: dbl_l {
         compatible = "zmk,behavior-macro";
@@ -12,7 +12,7 @@
         layers = <0>;
         wait-ms = <30>;
         tap-ms = <40>;
-        bindings = <&kp l &kp l>;
+        bindings = <&kp L &kp L>;
       };
   };
   combos {
