@@ -8,7 +8,6 @@
             tap-ms = <40>;
             bindings = <&kp l &kp l>;
         )
-        };
     };
     combos {
         compatible = "zmk,combos";
