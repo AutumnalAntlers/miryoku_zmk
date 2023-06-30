@@ -17,8 +17,8 @@
   combos {
       compatible = "zmk,combos";
       combo_l_mr {
-          // timeout-ms = <50>;
-          layers = <0>;
+          timeout-ms = <50>;
+          // layers = <0>;
           key-positions = <22 23>;
           bindings = <&dbl_l>;
       };
