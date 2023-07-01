@@ -4,6 +4,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define MIRYOKU_KLUDGE_TOPROWCOMBOS
+
 / {
   macros {
       dbl_l: dbl_l {
