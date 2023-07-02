@@ -3,6 +3,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "miryoku_babel/miryoku_layer_list.h"
 
 / {
   macros {
