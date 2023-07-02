@@ -15,7 +15,7 @@
 #define MACRO(NAME, KEYPOS) \
   MACRO_##NAME { \
     compatible = "zmk,behavior-macro"; \
-    label = "ZM_macro_" NAME; \
+    label = "ZM_macro_" #NAME; \
     #binding-cells = <0>; \
     wait-ms = <30>; \
     tap-ms = <40>; \
