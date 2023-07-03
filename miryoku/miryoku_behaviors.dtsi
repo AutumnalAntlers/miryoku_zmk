@@ -21,7 +21,7 @@
       #binding-cells = <2>;
       tapping_term_ms = <250>;
       quick_tap_ms = <150>;
-      global_quick_tap;
+      global-quick-tap;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <KEYS_R THUMBS>;
@@ -33,7 +33,7 @@
       #binding-cells = <2>;
       tapping_term_ms = <250>;
       quick_tap_ms = <150>;
-      global_quick_tap;
+      global-quick-tap;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <KEYS_L THUMBS>;
