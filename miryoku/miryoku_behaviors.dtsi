@@ -17,7 +17,7 @@
     };
     u_mtl: u_mtl {
       compatible = "zmk,behavior-hold-tap";
-      label = "u_mt";
+      label = "u_mtl";
       #binding-cells = <2>;
       tapping_term_ms = <250>;
       quick_tap_ms = <150>;
@@ -29,7 +29,7 @@
     };
     u_mtr: u_mtr {
       compatible = "zmk,behavior-hold-tap";
-      label = "u_mt";
+      label = "u_mtr";
       #binding-cells = <2>;
       tapping_term_ms = <250>;
       quick_tap_ms = <150>;
