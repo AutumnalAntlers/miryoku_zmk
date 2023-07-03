@@ -13,7 +13,7 @@
     layers = <0>; \
   };
 #define MACRO(NAME, KEYPOS) \
-  MACRO_##NAME { \
+  macro_##NAME: NAME { \
     compatible = "zmk,behavior-macro"; \
     label = "ZM_macro_" #NAME; \
     #binding-cells = <0>; \
