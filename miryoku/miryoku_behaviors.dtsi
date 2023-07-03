@@ -20,7 +20,7 @@
       label = "u_mtl";
       #binding-cells = <2>;
       tapping_term_ms = <250>;
-      quick_tap_ms = <150>;
+      quick_tap_ms = <350>; // Should be > ( 10500 / Relaxed WPM )
       global-quick-tap;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
@@ -32,7 +32,7 @@
       label = "u_mtr";
       #binding-cells = <2>;
       tapping_term_ms = <250>;
-      quick_tap_ms = <150>;
+      quick_tap_ms = <350>;
       global-quick-tap;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
