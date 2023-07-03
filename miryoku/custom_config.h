@@ -12,10 +12,12 @@
     key-positions = <KEYPOS>; \
     layers = <0>; \
   };
+
+#define ZMK_MACRO_STRINGIFY(x) #x
 #define MACRO(NAME, KEYPOS) \
-  macro_##NAME: NAME { \
+  macro_##NAME: macro_##NAME { \
     compatible = "zmk,behavior-macro"; \
-    label = "ZM_macro_" #NAME; \
+    label = ZMK_MACRO_STRINGIFY(macro_ ## name); \
     #binding-cells = <0>; \
     wait-ms = <30>; \
     tap-ms = <40>; \
